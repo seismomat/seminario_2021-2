@@ -9,14 +9,15 @@ int main(){
 	int i,suma=0,suma1=1;
 
 	printf("Ingrese un numero o el numero 2 \n ");
-	scanf(" %d ",&num);
-	
-	if(num==2) {
+	scanf(" %d ",&num);	
+							
+	if(num==2) {  
 		for(i=0;i<5;i++){
 
 			suma+=A1[i];
 
 		}
+			
 		printf(" la suma es : %d ",suma);
 	}
 	else { 
