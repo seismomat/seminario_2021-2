@@ -1,0 +1,6 @@
+la manera que debe correr los codigos es la siguiente
+
+
+gcc -fopenmp modulo.h principal.c -o p
+
+./p
