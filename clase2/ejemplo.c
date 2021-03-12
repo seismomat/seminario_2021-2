@@ -9,7 +9,7 @@ int main(){
 	int i,suma=0,suma1=1;
 
 	printf("Ingrese un numero o el numero 2 \n ");
-	scanf(" %d ",&num);	
+	scanf(" %d",&num);	
 							
 	if(num==2) {  
 		for(i=0;i<5;i++){
@@ -18,14 +18,14 @@ int main(){
 
 		}
 			
-		printf(" la suma es : %d ",suma);
+		printf(" la suma es : %d \n",suma);
 	}
 	else { 
 		while(suma1<50){
 			suma1*=num+1;
 		}
 
-		printf("el producto de los valores es: %d",suma1);
+		printf("el producto de los valores es: %d \n",suma1);
 
 	}
 
